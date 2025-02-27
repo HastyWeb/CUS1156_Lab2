@@ -1,13 +1,18 @@
 import java.util.ArrayList;
 
-public class UniqueWords
-{
+public class UniqueWords {
+	/* Project: Lab2
+	* Class: UniqueWords.java
+	* Author: Joseph Enriquez, Puya Ghazizadeh
+	* Date: February 27, 2025
+	* This program counts the number of unique Strings(or words) in a list
+	*/
+	
    /**
 		counts the number of unique strings in a list
 		@param list ArrayList of strings to be examined
 		@return number of unique strings in the list
    */
-	
    public static int countUnique(ArrayList<String> list) {
 	  //temporary arrayList
 	  ArrayList<String> tempArr = new ArrayList<String>();
